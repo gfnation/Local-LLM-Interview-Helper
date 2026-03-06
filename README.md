@@ -48,10 +48,12 @@ The question bank covers a diverse range of topics:
    ```
    *The frontend will start on `http://localhost:5173/`.*
 
-## Features
-- **Instant AI Feedback**: Submit your answer and get an immediate critique tailored to a senior engineering standard.
-- **Search Web Grounding**: Toggle web search to ensure the AI's feedback is grounded in the latest 2024/2025 documentation.
-- **Interactive Deep-Dives**: Click on highlighted technical concepts within feedback to get a dense, under-the-hood explanation.
-- **Ideal Answer Comparison**: Request a senior-level "Ideal Response" to see exactly how a top-tier candidate would have answered the same question.
-- **Dynamic Model Selection**: Connects directly to Ollama. Use the dropdown to switch between any models you have downloaded locally.
-- **Smart Auto-scroll**: The interface automatically follows the AI's generation, keeping the latest insights in view.
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+- **Non-Commercial**: You may not use this material for commercial purposes.
+- **Attribution**: You must give appropriate credit and provide a link to the license.
+- **No Warranty**: This software is provided "as-is" without any warranty of any kind.
+
+See the [LICENSE](LICENSE) file for the full text.
