@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "react",
+    "question": "Explain the difference between useEffect and useLayoutEffect in React. When would you use one over the other?",
+    "id": 1
+  },
+  {
+    "topic": "react",
+    "question": "How does React's Virtual DOM work, and why does it make rendering faster?",
+    "id": 2
+  },
+  {
+    "topic": "react",
+    "question": "Describe the React Fiber architecture. What advantages does it bring to the framework regarding scheduling and concurrency?",
+    "id": 3
+  },
+  {
+    "topic": "react",
+    "question": "How do you handle state management in a large-scale React application? Compare Context API, Redux/Zustand, and server state libraries like React Query.",
+    "id": 4
+  },
+  {
+    "topic": "react",
+    "question": "What are React Server Components (RSC)? How do they differ from traditional Server-Side Rendering (SSR), and what performance benefits do they offer?",
+    "id": 5
+  },
+  {
+    "topic": "react",
+    "question": "Explain the concept of Higher-Order Components (HOCs) and Custom Hooks. Which one is preferred in modern React and why?",
+    "id": 6
+  },
+  {
+    "topic": "react",
+    "question": "How does React handle synthetic events, and why does it use an event delegation model?",
+    "id": 7
+  },
+  {
+    "topic": "react",
+    "question": "What is the purpose of React.memo and useMemo? Provide a scenario where misusing them degrades performance.",
+    "id": 8
+  },
+  {
+    "topic": "react",
+    "question": "Describe how Error Boundaries work in React. What types of errors do they catch, and what do they miss?",
+    "id": 9
+  },
+  {
+    "topic": "react",
+    "question": "How would you optimize a React frontend that renders a list of 100,000 complex items? Discuss virtualization and pagination.",
+    "id": 10
+  },
+  {
+    "topic": "react",
+    "question": "Explain StrictMode in React 18+. Why does it double-invoke effects in development, and how should you adapt your code for it?",
+    "id": 11
+  },
+  {
+    "topic": "react",
+    "question": "How does context propagation work in React, and what are the performance implications of placing context providers too high in the component tree?",
+    "id": 12
+  },
+  {
+    "topic": "react",
+    "question": "What is Hydration in React SSR? What causes hydration mismatches, and how do you debug them?",
+    "id": 13
+  },
+  {
+    "topic": "react",
+    "question": "Discuss the 'stale closure' problem in React hooks. How does it happen (e.g., inside a setTimeout in a useEffect), and how do you solve it?",
+    "id": 14
+  },
+  {
+    "topic": "react",
+    "question": "Compare React's `useCallback` with just defining a function inline. When is `useCallback` actually necessary?",
+    "id": 15
+  },
+  {
+    "topic": "react",
+    "question": "How do you implement code splitting and lazy loading in a React application using React.lazy and Suspense?",
+    "id": 16
+  },
+  {
+    "topic": "react",
+    "question": "What is Concurrent Feature in React (React 18)? How do `useTransition` and `useDeferredValue` improve user experience?",
+    "id": 17
+  },
+  {
+    "topic": "react",
+    "question": "Explain the difference between controlled and uncontrolled components in React forms. Which pattern is more scalable?",
+    "id": 18
+  },
+  {
+    "topic": "react",
+    "question": "How do you profile a React application to find performance bottlenecks? Discuss the React DevTools Profiler.",
+    "id": 19
+  },
+  {
+    "topic": "react",
+    "question": "What are React portals, and in what architectural scenarios (like modals or tooltips) are they strictly necessary?",
+    "id": 20
+  },
+  {
+    "topic": "react",
+    "question": "Describe the component lifecycle in a Next.js application (App Router). How does it combine Server Components and Client Components?",
+    "id": 21
+  },
+  {
+    "topic": "react",
+    "question": "How does React batch state updates? What changed in batching behavior between React 17 and React 18?",
+    "id": 22
+  },
+  {
+    "topic": "react",
+    "question": "What is a 'Ref' in React, and how does `useRef` differ from `useState`? When should you use a ref over state?",
+    "id": 23
+  },
+  {
+    "topic": "react",
+    "question": "Explain how you would architect a reusable component library from scratch. What build tools and design patterns would you use?",
+    "id": 24
+  },
+  {
+    "topic": "react",
+    "question": "How do you securely handle authentication tokens (JWTs) in a React SPA? Where should they be stored and why?",
+    "id": 25
+  },
+  {
+    "topic": "flask",
+    "question": "What is the Request Context in Flask, and how do you access the incoming JSON payload from a POST request?",
+    "id": 26
+  },
+  {
+    "topic": "flask",
+    "question": "How would you structure a large Flask application to maintain scalability and organization? Discuss Blueprints and Application Factories.",
+    "id": 27
+  },
+  {
+    "topic": "flask",
+    "question": "In Flask, explain how Thread Locals work under the hood for contexts like `request` and `g`. What are the potential pitfalls of this design in asynchronous programming?",
+    "id": 28
+  },
+  {
+    "topic": "flask",
+    "question": "How would you architect a high-throughput Flask application? Discuss aspects like WSGI servers (Gunicorn, uWSGI), worker types (sync, gevent, eventlet), and load balancing.",
+    "id": 29
+  },
+  {
+    "topic": "flask",
+    "question": "What is the role of the Werkzeug library in the Flask ecosystem? How does it handle routing and WSGI compliance?",
+    "id": 30
+  },
+  {
+    "topic": "flask",
+    "question": "Explain how Flask handles sessions by default (client-side signed cookies) versus server-side sessions. What are the security implications of each?",
+    "id": 31
+  },
+  {
+    "topic": "flask",
+    "question": "How do you handle database migrations in a Flask/SQLAlchemy stack? Discuss Flask-Migrate and Alembic workflows.",
+    "id": 32
+  },
+  {
+    "topic": "flask",
+    "question": "What are Flask Signals (via blinker)? Provide a use case where a signal is preferable to a direct function call.",
+    "id": 33
+  },
+  {
+    "topic": "flask",
+    "question": "How would you implement rate limiting in a Flask API? Which layers (application vs reverse proxy) would you use and why?",
+    "id": 34
+  },
+  {
+    "topic": "flask",
+    "question": "Discuss dependency injection in Flask. How can you mock database connections or external APIs effectively during unit testing?",
+    "id": 35
+  },
+  {
+    "topic": "flask",
+    "question": "What is Cross-Site Request Forgery (CSRF), and how do you protect a Flask application against it, particularly for API endpoints?",
+    "id": 36
+  },
+  {
+    "topic": "flask",
+    "question": "Explain the difference between `@app.before_request` and `@app.after_request`. How would you use them to add custom logging or CORS headers?",
+    "id": 37
+  },
+  {
+    "topic": "flask",
+    "question": "How do you handle long-running background tasks originating from a Flask route without blocking the WSGI worker? Discuss Celery or Redis Queue.",
+    "id": 38
+  },
+  {
+    "topic": "flask",
+    "question": "Compare Flask with FastAPI. In what scenarios would you choose FastAPI over Flask for a new project?",
+    "id": 39
+  },
+  {
+    "topic": "python",
+    "question": "Explain the Global Interpreter Lock (GIL) in Python (CPython). How does it affect multi-threading, and what architectural strategies would you use to bypass its limitations for CPU-bound tasks?",
+    "id": 40
+  },
+  {
+    "topic": "python",
+    "question": "Discuss Python's memory management, specifically referencing how reference counting and the cyclic garbage collector work together.",
+    "id": 41
+  },
+  {
+    "topic": "python",
+    "question": "What are decorators in Python, and how are they implemented under the hood? Write a decorator that retries a function 3 times on failure.",
+    "id": 42
+  },
+  {
+    "topic": "python",
+    "question": "Explain the difference between an Iterator, an Iterable, and a Generator in Python. How do Generators improve memory efficiency?",
+    "id": 43
+  },
+  {
+    "topic": "python",
+    "question": "How does multiple inheritance work in Python? Explain the Method Resolution Order (MRO) and the C3 linearization algorithm.",
+    "id": 44
+  },
+  {
+    "topic": "python",
+    "question": "Discuss the differences between `__new__` and `__init__` in Python classes. When would you override `__new__`?",
+    "id": 45
+  },
+  {
+    "topic": "python",
+    "question": "What are metaclasses in Python? Provide an example of a situation where you would absolutely need to use a metaclass.",
+    "id": 46
+  },
+  {
+    "topic": "python",
+    "question": "Explain context managers and the `with` statement. How do you implement a custom context manager using classes or `contextlib`?",
+    "id": 47
+  },
+  {
+    "topic": "python",
+    "question": "What is the difference between deep copy and shallow copy in Python? How does mutability affect this?",
+    "id": 48
+  },
+  {
+    "topic": "python",
+    "question": "How do you profile a Python application for CPU and memory usage? Discuss tools like `cProfile`, `memory_profiler`, and `py-spy`.",
+    "id": 49
+  },
+  {
+    "topic": "python",
+    "question": "Explain the descriptor protocol in Python (`__get__`, `__set__`, `__delete__`). How is it used to implement properties and class methods?",
+    "id": 50
+  },
+  {
+    "topic": "python",
+    "question": "What is `asyncio` in Python, and how does the event loop work? Explain the difference between parallel concurrency and cooperative concurrency.",
+    "id": 51
+  },
+  {
+    "topic": "python",
+    "question": "Discuss Python's dataclasses versus standard classes or namedtuples. When should you use each?",
+    "id": 52
+  },
+  {
+    "topic": "python",
+    "question": "How are dictionary keys hashed in Python? Explain hash collisions and how Python's dict implementation resolves them.",
+    "id": 53
+  },
+  {
+    "topic": "python",
+    "question": "What are monkey patching and duck typing in Python? When are they acceptable, and when do they become anti-patterns?",
+    "id": 54
+  },
+  {
+    "topic": "python",
+    "question": "Explain the impact of the `global` and `nonlocal` keywords in Python regarding variable scoping and closures.",
+    "id": 55
+  },
+  {
+    "topic": "python",
+    "question": "Discuss the performance implications of string concatenation in Python (`+` vs `.join()`). Why does it matter?",
+    "id": 56
+  },
+  {
+    "topic": "python",
+    "question": "How does exception handling impact performance in Python? Discuss 'Look Before You Leap' (LBYL) versus 'Easier to Ask for Forgiveness than Permission' (EAFP).",
+    "id": 57
+  },
+  {
+    "topic": "python",
+    "question": "What are type hints in Python, and how does a static type checker like `mypy` integrate with the language's dynamic nature?",
+    "id": 58
+  },
+  {
+    "topic": "python",
+    "question": "Explain how Python handles function defaults, specifically the 'mutable default argument' gotcha.",
+    "id": 59
+  },
+  {
+    "topic": "python",
+    "question": "What is the difference between `is` and `==` in Python? How does interning relate to the `is` operator?",
+    "id": 60
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain the role of Convolutional Neural Networks (CNNs) in image classification. What problem do they solve compared to fully connected networks?",
+    "id": 61
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What are Haar Cascades and how do they differ from deep learning approaches for object detection?",
+    "id": 62
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Compare and contrast two-stage object detectors (like Faster R-CNN) with single-stage detectors (like YOLO). What are the trade-offs regarding speed and accuracy?",
+    "id": 63
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain the concept of 'Attention Mechanisms' (e.g., in Vision Transformers). How do they handle spatial relationships differently from convolution operations?",
+    "id": 64
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What is Data Augmentation in training CV models? Discuss techniques like MixUp, CutMix, and traditional geometric transforms.",
+    "id": 65
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Describe Semantic Segmentation vs Instance Segmentation vs Panoptic Segmentation. Give an architecture example for each.",
+    "id": 66
+  },
+  {
+    "topic": "computer_vision",
+    "question": "How does Batch Normalization accelerate training in deep convolutional networks? What are its limitations regarding small batch sizes?",
+    "id": 67
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain the logic and math behind non-maximum suppression (NMS) in object detection pipelines.",
+    "id": 68
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What is Transfer Learning, and why is it particularly effective in Computer Vision? Discuss fine-tuning vs feature extraction.",
+    "id": 69
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Discuss the ResNet architecture and the vanishing gradient problem. How do skip connections solve it?",
+    "id": 70
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain Intersection over Union (IoU) and mean Average Precision (mAP). Why are they preferred over simple accuracy for object detection?",
+    "id": 71
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What are Feature Pyramid Networks (FPNs), and how do they help models detect objects at different scales?",
+    "id": 72
+  },
+  {
+    "topic": "computer_vision",
+    "question": "How do you handle class imbalance in a Computer Vision dataset? Discuss Focal Loss and hard negative mining.",
+    "id": 73
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain the concept of camera calibration. Why is intrinsic and extrinsic matrix estimation crucial for 3D vision applications?",
+    "id": 74
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What are Generative Adversarial Networks (GANs), and how are they used in Image-to-Image translation tasks (like pix2pix)?",
+    "id": 75
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Discuss the shift from CNNs to Vision Transformers (ViT). What inductive biases do CNNs have that ViTs lack, and how does that affect training?",
+    "id": 76
+  },
+  {
+    "topic": "computer_vision",
+    "question": "How does optical flow work for video analysis, and what are the differences between dense (Farneback) and sparse (Lucas-Kanade) optical flow?",
+    "id": 77
+  },
+  {
+    "topic": "computer_vision",
+    "question": "What is the difference between anchor-based and anchor-free object detection systems?",
+    "id": 78
+  },
+  {
+    "topic": "computer_vision",
+    "question": "Explain the concept of Depth from Stereo. How do disparity maps relate to physical depth?",
+    "id": 79
+  },
+  {
+    "topic": "computer_vision",
+    "question": "How do you optimize an edge-deployed Computer Vision model? Discuss quantization and pruning strategies.",
+    "id": 80
+  },
+  {
+    "topic": "ai",
+    "question": "Explain the concept of 'temperature' in Large Language Models. How does changing it affect the generated output?",
+    "id": 81
+  },
+  {
+    "topic": "ai",
+    "question": "What are Vector Embeddings, and how are they utilized in Retrieval-Augmented Generation (RAG) systems? Discuss indexing and similarity search techniques (e.g., Cosine Similarity, HNSW).",
+    "id": 82
+  },
+  {
+    "topic": "ai",
+    "question": "Describe the Transformer architecture at a high level. What is the role of self-attention, and why are positional encodings necessary?",
+    "id": 83
+  },
+  {
+    "topic": "ai",
+    "question": "What is fine-tuning in LLMs? Compare full fine-tuning with parameter-efficient methods like LoRA (Low-Rank Adaptation).",
+    "id": 84
+  },
+  {
+    "topic": "system_design",
+    "question": "Design a real-time collaborative coding interview platform (like CoderPad) using React and Python on the backend. Discuss the communication protocols (WebSockets, WebRTC), state synchronization (OT/CRDT), and scaling strategy.",
+    "id": 85
+  },
+  {
+    "topic": "system_design",
+    "question": "If you were to deploy a machine learning model at scale, how would you design the serving architecture? Discuss batching, Model optimization (quantization, ONNX), and A/B testing deployments.",
+    "id": 86
+  },
+  {
+    "topic": "ai",
+    "question": "Explain the Reinforcement Learning from Human Feedback (RLHF) pipeline used to train align language models like ChatGPT.",
+    "id": 87
+  },
+  {
+    "topic": "ai",
+    "question": "What is Semantic Search vs Lexical Search (e.g., TF-IDF/BM25)? In what scenarios would you use a hybrid search approach?",
+    "id": 88
+  },
+  {
+    "topic": "system_design",
+    "question": "Design an image upload and processing pipeline that detects inappropriate content using a CV model. Discuss the queueing architecture (e.g., SQS) and edge caching.",
+    "id": 89
+  },
+  {
+    "topic": "ai",
+    "question": "Discuss the problem of catastrophic forgetting in neural networks. How can it be mitigated during continuous learning or incremental training?",
+    "id": 90
+  },
+  {
+    "topic": "ai",
+    "question": "Explain the difference between greedy decoding and beam search decoding in sequence generation models.",
+    "id": 91
+  },
+  {
+    "topic": "system_design",
+    "question": "How would you design a distributed rate limiter for a high-traffic AI inference API? Discuss algorithms like Token Bucket and storage backends like Redis.",
+    "id": 92
+  },
+  {
+    "topic": "ai",
+    "question": "What are the limitations of Large Language Models regarding hallucination, and what architectural or prompt engineering strategies mitigate it?",
+    "id": 93
+  },
+  {
+    "topic": "system_design",
+    "question": "Design a scalable feature store for machine learning models. How do you ensure consistency between online (low latency) and offline (batch) feature access?",
+    "id": 94
+  },
+  {
+    "topic": "ai",
+    "question": "Explain the concept of 'Prompt Injection' attacks. How do you secure an LLM-integrated application against malicious user inputs?",
+    "id": 95
+  },
+  {
+    "topic": "system_design",
+    "question": "Design a high-availability database architecture for a React/Flask application. Discuss primary-replica replication, read replicas, and failover strategies.",
+    "id": 96
+  },
+  {
+    "topic": "system_design",
+    "question": "How do you implement distributed tracing and observability in a microservices architecture spanning a React frontend, a Flask API, and an AI serving layer?",
+    "id": 97
+  },
+  {
+    "topic": "ai",
+    "question": "What is LangChain or LlamaIndex, and how do they facilitate agentic AI workflows and tool use?",
+    "id": 98
+  },
+  {
+    "topic": "system_design",
+    "question": "Design a video streaming service backend. How do you handle video transcoding for different resolutions and network conditions?",
+    "id": 99
+  },
+  {
+    "topic": "system_design",
+    "question": "If your Flask backend starts dropping 5% of requests under peak load, describe your systematic debugging process to identify the bottleneck.",
+    "id": 100
+  }
+]
