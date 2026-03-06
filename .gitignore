@@ -6,11 +6,14 @@
 
 # Dependency directories
 node_modules/
-jspm_packages/
+**/node_modules/
 venv/
+**/venv/
+.venv/
+**/.venv/
 ENV/
 env/
-.venv/
+**/env/
 
 # Build outputs
 /dist
